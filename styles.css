@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+}
+ 
+header,
+footer {
+    font-weight: bold;
+}
+ 
+#main-content {
+    background-color: #f7f7f7;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+ 
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ 
+ul li {
+    margin-bottom: 10px;
+}
+ 
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+ 
+a:hover {
+    text-decoration: underline;
+}

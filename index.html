@@ -4,75 +4,163 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
-   M05 Lab - Final Project Design, Links, and Backend
+   Woolum University
   </title>
   <!-- Bootstrap CSS -->
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
-  <!-- Custom CSS -->
   <meta content="noindex, nofollow" name="robots"/>
  </head>
  <body>
-  <!-- Header Section -->
-  <header class="bg-dark text-white text-center p-4">
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+   <a class="navbar-brand" href="#">
+    Woolum University
+   </a>
+   <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button">
+    <span class="navbar-toggler-icon">
+    </span>
+   </button>
+   <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+     <li class="nav-item active">
+      <a class="nav-link" href="#">
+       Home
+      </a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="#">
+       About
+      </a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="#">
+       Courses
+      </a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="#">
+       Contact
+      </a>
+     </li>
+    </ul>
+   </div>
+  </nav>
+  <!-- Hero Section -->
+  <section class="text-center" id="hero">
    <h1>
-    M05 Lab - Final Project Design, Links, and Backend
+    Welcome to Woolum University
    </h1>
-  </header>
-  <!-- Main Content Section -->
-  <section class="container mt-5" id="main-content">
-   <div class="row">
-    <div class="col-md-6">
-     <h2>
-      About the Web Application Development SWPC
-     </h2>
-     <p>
-      The Web Application Development SWPC is a comprehensive course that covers the fundamentals of web development. It provides hands-on experience in building dynamic and interactive web applications using HTML, CSS, and JavaScript.
-     </p>
-     <p>
-      Throughout the course, students will learn how to design and develop modern web applications, create responsive layouts, implement user authentication and authorization, and interact with databases.
-     </p>
-     <p>
-      By the end of the course, students will have the skills and knowledge to build professional web applications that meet industry standards and best practices.
-     </p>
-    </div>
-    <div class="col-md-6">
-     <h2>
-      Links
-     </h2>
-     <ul>
-      <li>
-       <a href="#">
-        Course Syllabus
-       </a>
-      </li>
-      <li>
-       <a href="#">
-        Lecture Slides
-       </a>
-      </li>
-      <li>
-       <a href="#">
-        Assignments
-       </a>
-      </li>
-      <li>
-       <a href="#">
-        Project Guidelines
-       </a>
-      </li>
-      <li>
-       <a href="#">
-        Resources
-       </a>
-      </li>
-     </ul>
+   <p>
+    Your gateway to knowledge and success.
+   </p>
+  </section>
+  <!-- About Section -->
+  <section class="bg-light" id="about">
+   <div class="container">
+    <div class="row">
+     <div class="col-md-6">
+      <h2>
+       About Us
+      </h2>
+      <p>
+       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed auctor, ex vitae aliquet tincidunt, nunc lectus malesuada velit, ac tincidunt nisl nunc in turpis. Fusce nec semper nunc. Sed id lectus auctor, lacinia nunc sed, aliquam nunc. Etiam id nunc vel ante efficitur lacinia. Quisque auctor, nisl vel tincidunt ultrices, nisl turpis ultricies nunc, sed tincidunt nunc arcu a nunc.
+      </p>
+     </div>
+     <div class="col-md-6">
+      <img alt="University Image" class="img-fluid" src="university.jpg"/>
+     </div>
     </div>
    </div>
   </section>
-  <!-- Footer Section -->
-  <footer class="bg-dark text-white text-center p-4">
-   © 2021 Web Application Development SWPC
-  </footer>
+  <!-- Courses Section -->
+  <section id="courses">
+   <div class="container">
+    <h2>
+     Our Courses
+    </h2>
+    <div class="row">
+     <div class="col-md-4">
+      <div class="card">
+       <img alt="Course 1" class="card-img-top" src="course1.jpg"/>
+       <div class="card-body">
+        <h5 class="card-title">
+         Course 1
+        </h5>
+        <p class="card-text">
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+        <a class="btn btn-primary" href="#">
+         Learn More
+        </a>
+       </div>
+      </div>
+     </div>
+     <div class="col-md-4">
+      <div class="card">
+       <img alt="Course 2" class="card-img-top" src="course2.jpg"/>
+       <div class="card-body">
+        <h5 class="card-title">
+         Course 2
+        </h5>
+        <p class="card-text">
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+        <a class="btn btn-primary" href="#">
+         Learn More
+        </a>
+       </div>
+      </div>
+     </div>
+     <div class="col-md-4">
+      <div class="card">
+       <img alt="Course 3" class="card-img-top" src="course3.jpg"/>
+       <div class="card-body">
+        <h5 class="card-title">
+         Course 3
+        </h5>
+        <p class="card-text">
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+        <a class="btn btn-primary" href="#">
+         Learn More
+        </a>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Contact Section -->
+  <section id="contact">
+   <div class="container">
+    <h2>
+     Contact Us
+    </h2>
+    <form id="contactForm">
+     <div class="form-group">
+      <label for="name">
+       Name:
+      </label>
+      <input class="form-control" id="name" name="name" placeholder="Enter name" type="text"/>
+     </div>
+     <div class="form-group">
+      <label for="email">
+       Email:
+      </label>
+      <input class="form-control" id="email" name="email" placeholder="Enter email" type="email"/>
+     </div>
+     <div class="form-group">
+      <label for="message">
+       Message:
+      </label>
+      <textarea class="form-control" id="message" name="message" placeholder="Enter your message"></textarea>
+     </div>
+     <button class="btn btn-primary" type="submit">
+      Submit
+     </button>
+    </form>
+   </div>
+  </section>
   <!-- Bootstrap & jQuery JS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
   </script>

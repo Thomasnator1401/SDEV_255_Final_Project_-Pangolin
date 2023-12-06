@@ -2,32 +2,23 @@ body {
     font-family: Arial, sans-serif;
 }
  
-header,
-footer {
-    font-weight: bold;
+#hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
 }
  
-#main-content {
-    background-color: #f7f7f7;
-    padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+#about {
+    padding: 40px 0;
 }
  
-ul {
-    list-style-type: none;
-    padding: 0;
+#courses {
+    padding: 40px 0;
 }
  
-ul li {
-    margin-bottom: 10px;
-}
- 
-a {
-    color: #007bff;
-    text-decoration: none;
-}
- 
-a:hover {
-    text-decoration: underline;
+#contact {
+    background-color: #e9ecef;
+    padding: 40px 0;
 }
